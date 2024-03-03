@@ -1,0 +1,132 @@
+
+@media screen and (max-width: 1200px) {
+
+}
+
+body {
+
+margin: 0;
+font-family:'Times New Roman', Times, serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(0, 0, 0);
+
+}
+
+.page {
+
+top:-90px;
+position: relative;
+
+}
+
+.box {
+
+width: 110%;
+height: 430px;
+background-color: #668231;
+align-items: center;
+position: relative;
+border-radius: 15px;
+box-shadow:2px 2px 30px white;
+top: 30px;
+flex-wrap: wrap; 
+justify-content: space-between;
+
+    
+}
+
+.icon {
+
+   
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px;
+
+    
+}
+
+h1  {
+    color: white;
+   
+}
+
+p {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: 600;
+
+}
+
+.conteúdo {
+
+text-align: center;
+font-size: 25px;
+text-align: justify;
+margin-left: 160px;
+position: relative;
+top: -15px;
+
+}
+
+
+#text-1{
+
+top:-470px;
+position: relative;
+color: black;
+}
+
+#text-2{
+
+    top:-420px;
+    position: relative;
+    color: black;
+    }
+
+    #text-3{
+
+        top:-380px;
+        position: relative;
+        color: black;
+        }
+
+        #text-4{
+
+            top:-320px;
+            position: relative;
+            color: black;
+            }
+
+#logo {
+
+width: 110px;
+height: 110px;
+position: relative;
+margin-left: -1150px;
+}
+
+button{
+    text-align: left;
+    position: relative;
+    margin-left: -627px;
+    font-size: 18px;
+    transition: transform 300ms; /* Adicionando transição para o efeito transform */
+    color: #000000;
+    background-color: #668231;
+    border-radius: 15px;
+    box-shadow:0px 0px 10px white;
+    border: none;
+    font-weight: 600;
+}
+
+button:hover {
+    transform: scale(1.2); /* Corrigindo a sintaxe do transform efeito de escala */
+    background-color: #000000;
+    color: #668231;
+  
+}
